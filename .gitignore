@@ -1,0 +1,24 @@
+# Ignorar la carpeta de configuraciones de PyCharm (si usas PyCharm)
+.idea/
+
+# Ignorar archivos específicos del sistema operativo
+*.DS_Store  # Para macOS
+*.vscode/   # Configuración de Visual Studio Code
+
+# Ignorar entornos virtuales (venv)
+venv/
+.venv/
+
+# Ignorar archivos de logs y temporales
+*.log
+*.pyc
+__pycache__/
+
+# Ignorar archivos creados por el sistema o el editor
+*.iml
+*.xml
+*.sublime-workspace
+*.sublime-project
+
+# Archivos relacionados a dependencias que se regeneran automáticamente
+pip-log.txt
